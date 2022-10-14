@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h4>Fill your details</h4>
+    <form action="#">
+      <div><input class="form-input" type="text" placeholder="Name" /></div>
+      <div><input class="form-input" type="text" placeholder="Address" /></div>
+      <div><input class="form-input" type="email" placeholder="Email" /></div>
+      
+      <div>
+        <input class="form-input" type="date" placeholder="Date of Birth" />
+      </div>
+      <div>
+        <input class="form-input" type="tel" placeholder="012-345-6789" />
+      </div>
+      <div class="radio-input">
+        <label>Select Gender: </label>
+        Male <input type="radio" /> Female <input type="radio" /> Other<input type="radio" />
+      </div>
+      <div class="radio-input">
+        <label>Are you eligible? </label> <input type="checkbox" />
+      </div>
+
+      <div class="country">
+        <select>
+          <option>Select Country</option>
+          <option>India</option>
+          <option>Japan</option>
+          <option>America</option>
+        </select>
+      </div>
+
+      <div class="txtarea">
+        <textarea cols="50" rows="5" placeholder="Write about your self"></textarea>
+      </div>
+
+      <button type="button" class="btn">Submit</button>
+      <button type="reset" class="btn">Reset Now</button>
+    </form>
+  </body>
+</html>
